@@ -1,7 +1,7 @@
 public class Ecker_PerfectNumbers {
 
     public static void main(String[] args) {
-        int ts = 0;
+        int ts;
 
         for (int i = 1; i <= 10000; i++) {
             ts = teilersumme(i);
