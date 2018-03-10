@@ -3,6 +3,9 @@ public class Ecker_PerfectNumbers {
     public static void main(String[] args) {
         int ts;
 
+        System.out.println("Perfekte Zahlen");
+        System.out.println("===============");
+
         for (int i = 1; i <= 10000; i++) {
             ts = teilersumme(i);
             if (ts == i){
